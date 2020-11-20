@@ -21,6 +21,7 @@ func Build(arr ...int) *ListNode {
 		node := &ListNode{
 			Val: arr[i],
 		}
+
 		p.Next = node
 		p = node
 	}
@@ -30,9 +31,14 @@ func Build(arr ...int) *ListNode {
 
 func Print(head *ListNode) {
 	msg := ""
-
 	p := head
-	for p != nil {
+
+	for {
+		if p == nil {
+			msg += "nil"
+			break
+		}
+
 		msg += fmt.Sprintf("%d", p.Val) + "->"
 		p = p.Next
 	}
