@@ -1,5 +1,21 @@
 # CHANGELOG
 
+## v0.3.0 (2020-12-25)
+
+### Added
+
+- feat(stack): add print method
+
+### Fixed
+
+- fix(stack): use default stack int len again
+
+### Others
+
+- refactor(stack): use default stack int len
+
+- chore(changelog): generate v0.2.0
+
 ## v0.2.0 (2020-12-25)
 
 ### Added
