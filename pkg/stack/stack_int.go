@@ -12,7 +12,7 @@ type StackInt struct {
 
 func NewStackInt() *StackInt {
 	return &StackInt{
-		arr: make([]int, 0, 100),
+		arr: make([]int, 0, defaultStackIntLen),
 	}
 }
 
