@@ -1,12 +1,16 @@
 package stack
 
+const (
+	defaultStackIntLen = 100
+)
+
 type StackInt struct {
 	arr []int
 }
 
 func NewStackInt() *StackInt {
 	return &StackInt{
-		arr: make([]int, 0, 10),
+		arr: make([]int, 0, 100),
 	}
 }
 
