@@ -1,5 +1,7 @@
 package stack
 
+import "fmt"
+
 const (
 	defaultStackIntLen = 100
 )
@@ -35,4 +37,8 @@ func (s *StackInt) Pop() (int, bool) {
 	result := s.arr[len(s.arr)-1]
 	s.arr = s.arr[:len(s.arr)-1]
 	return result, true
+}
+
+func (s *StackInt) Print() {
+	fmt.Println(s.arr)
 }
