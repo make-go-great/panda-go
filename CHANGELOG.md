@@ -1,5 +1,23 @@
 # CHANGELOG
 
+## v0.4.0 (2021-06-24)
+
+### Others
+
+- chore: remove linkedlist (2021-06-24)
+
+- refactor(stack): move const (2021-06-24)
+
+- chore: remove pkg hiearchy (2021-06-24)
+
+- chore: update github action (2021-06-24)
+
+- chore: better summary (2021-06-24)
+
+- chore: use go postfix (2021-06-24)
+
+- chore(changelog): generate v0.3.0 (2020-12-25)
+
 ## v0.3.0 (2020-12-25)
 
 ### Added
