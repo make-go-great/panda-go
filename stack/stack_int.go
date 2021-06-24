@@ -2,17 +2,13 @@ package stack
 
 import "fmt"
 
-const (
-	defaultStackIntLen = 100
-)
-
 type StackInt struct {
 	arr []int
 }
 
 func NewStackInt() *StackInt {
 	return &StackInt{
-		arr: make([]int, 0, defaultStackIntLen),
+		arr: make([]int, 0, defaultStackLen),
 	}
 }
 
@@ -26,6 +22,7 @@ func (s *StackInt) Peek() (int, bool) {
 	}
 
 	result := s.arr[len(s.arr)-1]
+
 	return result, true
 }
 
@@ -36,6 +33,7 @@ func (s *StackInt) Pop() (int, bool) {
 
 	result := s.arr[len(s.arr)-1]
 	s.arr = s.arr[:len(s.arr)-1]
+
 	return result, true
 }
 
