@@ -1,3 +1,3 @@
-module github.com/haunt98/panda
+module github.com/haunt98/panda-go
 
-go 1.15
+go 1.16
