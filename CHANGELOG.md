@@ -1,5 +1,15 @@
 # CHANGELOG
 
+## v0.5.0 (2021-12-02)
+
+### Others
+
+- chore: update README badge (2021-12-02)
+
+- chore: update go.mod, github action (2021-12-02)
+
+- chore(license): bump year 2021 (2021-06-24)
+
 ## v0.4.0 (2021-06-24)
 
 ### Others
