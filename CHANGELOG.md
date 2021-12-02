@@ -1,5 +1,15 @@
 # CHANGELOG
 
+## v0.6.0 (2021-12-02)
+
+### Added
+
+- feat: add parser (2021-12-02)
+
+### Others
+
+- chore(changelog): generate v0.5.0 (2021-12-02)
+
 ## v0.5.0 (2021-12-02)
 
 ### Others
