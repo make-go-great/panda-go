@@ -1,12 +1,11 @@
 # macOS
 .DS_Store
 
+# Window
+*.exe
+
 # IntelliJ
 .idea/
 
 # VSCode
 .vscode/
-
-# Go
-coverage.out
-coverage.html
